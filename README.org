@@ -14,6 +14,7 @@
    + WLAN&Bluetooth: BCM943602CZ
 
 ** Feature Enabled
+   + OS: macOS 10.15 Catalina
    + GPU: Works, HEVC & H264 decoding enabled
    + Ethernet: Works, 1 Gigabit bandwidth
    + Audio: Works
@@ -29,5 +30,11 @@
 ** Important Notice
    The serial number and IDs in `EFI/OC/config.plist` are removed
 to avoid confliction. If you use this configuration, please use
-[`macserial`][https://github.com/acidanthera/OpenCorePkg/releases]] 
+[[https://github.com/acidanthera/OpenCorePkg/releases][`macserial`]] 
 to generate serial number and IDs and fill them in `config.plist`
+
+** Acknowledgement
+   + [[https://github.com.cnpmjs.org/chrisyer/gigabyte-z390-gaming-x-hackintosh][chrisyer]]
+   + [[https://github.com/hehongbo][He Hongbo]]
+   + [[https://blog.daliansky.net/OpenCore-BootLoader.html][daliansky]]
+   + [[https://github.com/cattyhouse/oc-guide][cattyhouse]] 
