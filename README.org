@@ -1,0 +1,33 @@
+* Personal Hackintosh Configurations
+  
+** Hardware
+   + Motherboard:    Gigabyte Z390 Gaming-X
+   + Processor:      Intel i5 9600KF (no integrated GPU)
+   + RAM:            Kingston Fury 16GB 3200 MHz
+   + Grapics:        Sapphire RX 590 8GB
+   + SSD:            Samsung 970 EVO, 500GB
+   + Monitor:        LG 27UL550, 27-inch, 4K
+   + Power:          Seasonic GX550
+   + Cooler:         Thermalright AS120PLUS
+   + Case:           Sama 3 ATX
+   + Keyboard&Mouse: Logitech MK270
+   + WLAN&Bluetooth: BCM943602CZ
+
+** Feature Enabled
+   + GPU: Works, HEVC & H264 decoding enabled
+   + Ethernet: Works, 1 Gigabit bandwidth
+   + Audio: Works
+   + WLAN: Works, AirDrop supported
+   + Bluetooth: Works, AirDrop supported
+   + Sleep&Wakeup: Works
+   + USB ports: All work with 3.0 support
+
+** Issues Still Not Reloved
+   + Audio: Noise not wiped out
+   + Overclocking: Not patched
+     
+** Important Notice
+   The serial number and IDs in `EFI/OC/config.plist` are removed
+to avoid confliction. If you use this configuration, please use
+[`macserial`][https://github.com/acidanthera/OpenCorePkg/releases]] 
+to generate serial number and IDs and fill them in `config.plist`
