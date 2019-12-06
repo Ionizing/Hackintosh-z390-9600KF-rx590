@@ -1,40 +1,41 @@
-* Personal Hackintosh Configurations
+#+TITLE: Personal Hackintosh Configurations
   
-** Hardware
-   + Motherboard:    Gigabyte Z390 Gaming-X
-   + Processor:      Intel i5 9600KF (no integrated GPU)
-   + RAM:            Kingston Fury 16GB 3200 MHz
-   + Grapics:        Sapphire RX 590 8GB
-   + SSD:            Samsung 970 EVO, 500GB
-   + Monitor:        LG 27UL550, 27-inch, 4K
-   + Power:          Seasonic GX550
-   + Cooler:         Thermalright AS120PLUS
-   + Case:           Sama 3 ATX
-   + Keyboard&Mouse: Logitech MK270
-   + WLAN&Bluetooth: BCM943602CZ
+* Hardware
+  + Motherboard:    Gigabyte Z390 Gaming-X
+  + Processor:      Intel i5 9600KF (no integrated GPU)
+  + RAM:            Kingston Fury 16GB 3200 MHz
+  + Grapics:        Sapphire RX 590 8GB
+  + SSD:            Samsung 970 EVO, 500GB
+  + Monitor:        LG 27UL550, 27-inch, 4K
+  + Power:          Seasonic GX550
+  + Cooler:         Thermalright AS120PLUS
+  + Case:           Sama 3 ATX
+  + Keyboard&Mouse: Logitech MK270
+  + WLAN&Bluetooth: BCM943602CZ
 
-** Feature Enabled
-   + OS: macOS 10.15 Catalina
-   + GPU: Works, HEVC & H264 decoding enabled
-   + Ethernet: Works, 1 Gigabit bandwidth
-   + Audio: Works
-   + WLAN: Works, AirDrop supported
-   + Bluetooth: Works, AirDrop supported
-   + Sleep&Wakeup: Works
-   + USB ports: All work with 3.0 support
+* Feature Enabled
+  + OS: macOS 10.15 Catalina
+  + GPU: Works, HEVC & H264 decoding enabled
+  + Ethernet: Works, 1 Gigabit bandwidth
+  + Audio: Works
+  + WLAN: Works, AirDrop supported
+  + Bluetooth: Works, AirDrop supported
+  + Sleep&Wakeup: Works
+  + USB ports: All work with 3.0 support
 
-** Issues Still Not Reloved
-   + Audio: Noise not wiped out
-   + Overclocking: Not patched
+* Issues Still Not Reloved
+  + Audio: Noise not wiped out
+  + Overclocking: Not patched
+  + NVRAM: Not work
      
-** Important Notice
+* Important Notice
    The serial number and IDs in `EFI/OC/config.plist` are removed
 to avoid confliction. If you use this configuration, please use
 [[https://github.com/acidanthera/OpenCorePkg/releases][`macserial`]] 
 to generate serial number and IDs and fill them in `config.plist`
 
-** Acknowledgement
-   + [[https://github.com.cnpmjs.org/chrisyer/gigabyte-z390-gaming-x-hackintosh][chrisyer]]
-   + [[https://github.com/hehongbo][He Hongbo]]
-   + [[https://blog.daliansky.net/OpenCore-BootLoader.html][daliansky]]
-   + [[https://github.com/cattyhouse/oc-guide][cattyhouse]] 
+* Acknowledgement
+  + [[https://github.com.cnpmjs.org/chrisyer/gigabyte-z390-gaming-x-hackintosh][chrisyer]]
+  + [[https://github.com/hehongbo][He Hongbo]]
+  + [[https://blog.daliansky.net/OpenCore-BootLoader.html][daliansky]]
+  + [[https://github.com/cattyhouse/oc-guide][cattyhouse]] 
