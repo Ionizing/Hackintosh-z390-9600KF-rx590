@@ -244,20 +244,201 @@
 	</dict>
 	<key>DeviceProperties</key>
 	<dict>
-		<key>Add</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>BwAAAA==</data>
-			</dict>
-		</dict>
 		<key>Block</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<array>
 				<string>MaximumBootBeepVolume</string>
 			</array>
+		</dict>
+		<key>Add</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>8th Gen Core Processor Host Bridge/DRAM Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x12,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,18,0</string>
+				<key>device_type</key>
+				<string>Signal processing controller</string>
+				<key>model</key>
+				<string>Cannon Lake PCH Thermal Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Cannon Lake PCH USB 3.1 xHCI Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>RAM memory</string>
+				<key>model</key>
+				<string>Cannon Lake PCH Shared SRAM</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,22,0</string>
+				<key>device_type</key>
+				<string>Communication controller</string>
+				<key>model</key>
+				<string>Cannon Lake PCH HECI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>Cannon Lake PCH SATA AHCI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Lake PCH PCI Express Root Port #17</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>NVMe SSD Controller SM981/PM981/PM983</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,4</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Lake PCH PCI Express Root Port #21</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x4)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,4/0,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>model</key>
+				<string>Ellesmere [Radeon RX 470/480/570/570X/580/580X/590]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x4)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,4/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Ellesmere HDMI Audio [Radeon RX 470/480 / 570/580/590]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Lake PCH PCI Express Root Port #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,5</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Lake PCH PCI Express Root Port #6</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x5)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,5/0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>BCM4360 802.11ac Wireless Network Adapter</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Lake PCH PCI Express Root Port #9</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,0</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>Z390 Chipset LPC/eSPI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>layout-id</key>
+				<data>BQAAAA==</data>
+				<key>model</key>
+				<string>Cannon Lake PCH cAVS</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,4</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>Cannon Lake PCH SMBus Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,5</string>
+				<key>device_type</key>
+				<string>Serial bus controller</string>
+				<key>model</key>
+				<string>Cannon Lake PCH SPI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,6</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>Ethernet Connection (7) I219-V</string>
+			</dict>
 		</dict>
 	</dict>
 	<key>Kernel</key>
