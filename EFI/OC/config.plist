@@ -6,14 +6,6 @@
 	<dict>
 		<key>Add</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>My custom DSDT</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -983,7 +975,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>xxxx</string>
+			<string>C02819501CDJG36JC</string>
 			<key>ROM</key>
 			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
@@ -991,9 +983,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>xxxx</string>
+			<string>C02XX02BHX87</string>
 			<key>SystemUUID</key>
-			<string>xxxx</string>
+			<string>E6EA60BF-7A2D-4D8C-B77F-E418342DB0E3</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
