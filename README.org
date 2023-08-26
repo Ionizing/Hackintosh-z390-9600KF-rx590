@@ -14,7 +14,7 @@
   | WLAN&Bluetooth | BCM943602CZ                         |
 
 * Features Enabled
-  | OS           | macOS 10.15 Catalina                |
+  | OS           | macOS 13 Ventura                    |
   | GPU          | Works, HEVC & H264 decoding enabled |
   | Ethernet     | Works, 1 Gigabit bandwidth          |
   | Audio        | Works                               |
@@ -22,11 +22,13 @@
   | Bluetooth    | Works, AirDrop supported            |
   | Sleep&Wakeup | Works                               |
   | USB ports    | All work with 3.0 support           |
+  | NVRAM        | Works                               |
 
+[[assets/videoproc.png]]
+  
 * Issues Still Not Resolved
   | Audio        | Noise not wiped out |
   | Overclocking | Not patched         |
-  | NVRAM        | Not work            |
      
 * Important Notice
    The serial number and IDs in ~EFI/OC/config.plist~ are removed
@@ -38,4 +40,5 @@ to generate serial number and IDs and fill them in ~config.plist~
   + [[https://github.com/chrisyer/gigabyte-z390-gaming-x-hackintosh][chrisyer]]
   + [[https://github.com/hehongbo][He Hongbo]]
   + [[https://blog.daliansky.net/OpenCore-BootLoader.html][daliansky]]
-  + [[https://github.com/cattyhouse/oc-guide][cattyhouse]] 
+  + [[https://github.com/cattyhouse/oc-guide][cattyhouse]]
+  + [[https://dortania.github.io/OpenCore-Install-Guide/][dortania]]
