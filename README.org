@@ -23,6 +23,7 @@
   | Sleep&Wakeup | Works                               |
   | USB ports    | All work with 3.0 support           |
   | NVRAM        | Works                               |
+  | OpenCore     | 0.9.4 (Release)                     |
 
 [[assets/videoproc.png]]
   
